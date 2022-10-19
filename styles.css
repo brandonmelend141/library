@@ -33,6 +33,7 @@
     display: flex;
     padding: 20px;
     flex-direction: column;
+    gap: 10px;
 }
 
 .nav{
@@ -108,3 +109,73 @@
     background-color: white;
 }
 
+.read-btn{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    background-color: #9333ea;
+}
+.not-read-btn{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: purple;
+    background-color: pink;
+}
+
+
+.closeButton-form{
+    width: 20px;
+    height: 20px;
+    align-self: flex-end;
+}
+
+.err-img{
+    width: 20px;
+    height: 20px;
+}
+.title-error{
+    visibility: hidden;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    background-color: #9333ea;
+    align-content: center;
+    gap: 10px;
+}
+.title-error,.author-error,.page-error p{
+    display: flex;
+    align-items: center;
+}
+.author-error{
+    visibility: hidden;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    background-color: #9333ea;
+    align-content: center;
+    gap: 10px;
+}
+.page-error{
+    visibility: hidden;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    background-color: #9333ea;
+    align-content: center;
+    gap: 10px;
+
+}
+
+#add{
+    border-radius: 10px;
+    border: none;
+    background-color: #9333ea;
+    color: #f3e8ff;
+    font-size: 1.2rem;
+}
