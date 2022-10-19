@@ -179,3 +179,12 @@
     color: #f3e8ff;
     font-size: 1.2rem;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #e9d5ff;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 20px;
+}
